@@ -13,13 +13,17 @@ ol {
 
 li {
   margin-top: 70px;
-  width: 1000px;
+  width: 1100px;
   border-style: solid;
   padding: 20px;
 }
 
 li:hover {
   cursor: pointer;
+}
+
+h3 {
+  margin-top: 90px;
 }
 
 #diff {
@@ -33,4 +37,8 @@ li:hover {
   margin-top: 50px;
   color: red;
   text-align: center;
+}
+
+#welcome {
+  position: absolute;
 }
