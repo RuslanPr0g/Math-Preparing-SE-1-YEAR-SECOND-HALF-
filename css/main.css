@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+body {
+  font-family: "Inconsolata", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ol {
+  font-size: 27px;
+}
+
+li {
+  margin-top: 70px;
+  width: 1000px;
+  border-style: solid;
+  padding: 20px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#diff {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: red;
+  text-align: center;
+}
+
+#ser {
+  margin-top: 50px;
+  color: red;
+  text-align: center;
+}
