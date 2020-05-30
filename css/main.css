@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 ol {
@@ -41,4 +42,12 @@ h3 {
 
 #welcome {
   position: absolute;
+}
+
+.github {
+  text-decoration: none;
+  color: thistle;
+  width: 55px;
+  font-size: 50px;
+  margin-top: 15px;
 }
