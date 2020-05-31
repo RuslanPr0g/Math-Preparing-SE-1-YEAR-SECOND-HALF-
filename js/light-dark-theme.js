@@ -6,11 +6,9 @@ if (!localStorage.getItem("theme")) {
   isDark = false;
   localStorage.removeItem("theme");
   localStorage.setItem("theme", isDark);
-  console.log("light");
 }
 if (localStorage.getItem("theme")) {
   isDark = localStorage.getItem("theme");
-  console.log(isDark);
 }
 
 checkTheme();
@@ -25,7 +23,6 @@ function toggle() {
   }
 
   checkTheme();
-  localStorage.removeItem("theme");
   localStorage.setItem("theme", isDark);
 }
 
