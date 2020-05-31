@@ -17,10 +17,21 @@ li {
   width: 1100px;
   border-style: solid;
   padding: 20px;
+  transition: 200ms;
 }
 
 li:hover {
   cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+li img {
+  transition: 200ms;
+}
+
+li:hover img {
+  filter: invert(1);
 }
 
 #menu {
