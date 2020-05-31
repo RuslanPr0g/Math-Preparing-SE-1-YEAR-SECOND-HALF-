@@ -23,8 +23,8 @@ li:hover {
   cursor: pointer;
 }
 
-h3 {
-  margin-top: 90px;
+#menu {
+  margin-top: 210px;
 }
 
 #diff {
@@ -42,6 +42,7 @@ h3 {
 
 #welcome {
   position: absolute;
+  font-size: 110px;
 }
 
 .github {
