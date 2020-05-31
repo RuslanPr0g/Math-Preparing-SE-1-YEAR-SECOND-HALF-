@@ -15,6 +15,11 @@
     <script src="js/main.js"></script>
   </head>
   <body onload="welcome()">
+    <label class="switch">
+      <input type="checkbox" onclick="toggle()" />
+      <span class="slider"></span>
+    </label>
+    <div id="night">NIGHT MODE</div>
     <h1 id="welcome"></h1>
     <div id="menu">
       <ol>
@@ -68,7 +73,10 @@
 
         <div id="ser">Series</div>
 
-        <li onclick="location.href='11/index.html';">
+        <li
+          onclick="location.href='11/index.html';"
+          onmouseover="invertText(this)"
+        >
           Real-valued numerical series: introduction and main definitions.
         </li>
         <li onclick="location.href='12/index.html';">
@@ -86,6 +94,13 @@
         <li onclick="location.href='15/index.html';">
           The absolute and conditional convergence (complete explanation,
           without proof). The Leibnitz theorem (with proof).
+        </li>
+        <div id="tables">Tables</div>
+        <li onclick="location.href='16/index.html';">
+          Derivatives
+        </li>
+        <li onclick="location.href='17/index.html';">
+          Integrals
         </li>
       </ol>
     </div>

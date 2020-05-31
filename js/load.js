@@ -19,7 +19,7 @@ function load(countOfImgs, ext) {
       let img = document.createElement("img");
 
       img.src = photoUrls[i];
-      console.log(img.src);
+      img.onload = load_theme(img);
 
       let photos = document.querySelector("#photo");
       photos.appendChild(img);
