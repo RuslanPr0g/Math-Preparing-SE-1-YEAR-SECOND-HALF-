@@ -11,6 +11,11 @@ body {
   align-items: center;
   padding-bottom: 30px;
   transition: 100ms;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 ol {
@@ -25,6 +30,7 @@ li {
   padding: 20px;
   transition: 200ms;
   cursor: pointer;
+  font-weight: bold;
 }
 
 img {
@@ -69,6 +75,10 @@ img {
   width: 55px;
   font-size: 50px;
   margin-top: 15px;
+}
+
+.switch {
+  margin-top: 25px;
 }
 
 /* @media screen and (max-width: 800px) {

@@ -31,6 +31,7 @@ function dark() {
   document.body.style.color = "white";
   document.getElementsByTagName("input")[0].checked = true;
   document.getElementsByClassName("github")[0].style.filter = "invert(1)";
+  document.getElementById("anchor").style.filter = "invert(1)";
 }
 
 function light() {
@@ -38,6 +39,7 @@ function light() {
   document.body.style.color = "black";
   document.getElementsByTagName("input")[0].checked = false;
   document.getElementsByClassName("github")[0].style.filter = "invert(0)";
+  document.getElementById("anchor").style.filter = "invert(0)";
 }
 
 function checkTheme() {
