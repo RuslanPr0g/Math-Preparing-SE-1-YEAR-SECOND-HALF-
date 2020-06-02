@@ -42,12 +42,7 @@ img {
   text-align: center;
 }
 
-#ser {
-  margin-top: 50px;
-  color: red;
-  text-align: center;
-}
-
+#ser,
 #tables {
   margin-top: 50px;
   color: red;
@@ -75,3 +70,9 @@ img {
   font-size: 50px;
   margin-top: 15px;
 }
+
+/* @media screen and (max-width: 800px) {
+  body {
+    max-width: 100%;
+  }
+} */

@@ -18,9 +18,7 @@ function load_theme(_img) {
 }
 
 if (localStorage.getItem("theme") === "false") {
-  document.getElementsByTagName("a")[0].style.backgroundColor = "black";
-  document.getElementsByTagName("a")[0].style.color = "white";
+  document.getElementById("home").style.filter = "invert(0)";
 } else {
-  document.getElementsByTagName("a")[0].style.backgroundColor = "white";
-  document.getElementsByTagName("a")[0].style.color = "black";
+  document.getElementById("home").style.filter = "invert(1)";
 }
